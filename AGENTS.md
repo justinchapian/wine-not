@@ -1,9 +1,11 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# Agent Notes
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+## Framework Versions
 
-# Project Documentation
+_Add notes here about framework versions that differ from agent training data (e.g., breaking changes in newer versions)._
 
-Start with `.kiro/steering/INDEX.md` — it routes you to the right files for any task. For full agent workflow guidance, see `docs/AGENT_GUIDE.md`.
+## Quick Start
+
+1. Read `.kiro/steering/INDEX.md` first — it routes you to the right file for any task.
+2. Check `decisions.md` before proposing alternatives — many have been evaluated and rejected.
+3. Follow the rule format in `feature-planning.md` when adding new rules.
